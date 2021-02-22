@@ -31,12 +31,12 @@ h1{
 	font-style: normal;
 	line-height: 0.9em;
 
-	color: black !important;
+	color: white !important;
 	text-shadow:
-		-1px -1px 0 #FFF,
-		1px -1px 0 #FFF,
-		-1px 1px 0 #FFF,
-		1px 1px 0 #FFF;
+		-1px -1px 0 #000,
+		1px -1px 0 #000,
+		-1px 1px 0 #000,
+		1px 1px 0 #000;
 }
 h2{
 	margin: 20px 0 0 0;
@@ -99,7 +99,10 @@ h2{
 }
 .link:hover{
 	color: white;
-	animation: none;
+	animation: woohoo 1s 1;
+}
+@keyframes woohoo {
+  50% {transform: rotate(-180deg);}
 }
 .link:visited{
 	color:grey;

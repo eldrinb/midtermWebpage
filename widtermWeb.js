@@ -13,7 +13,7 @@ function setup() {
   canvas.position(0,0);
   canvas.style('z-index','-2');
   canvas.style('position','fixed');
-  background(0);
+  background(255);
   //shapes for prompts + drawing
   drawings = ['squares.', 'circles.', 'scribbles.'];
   drawing = random(drawings);

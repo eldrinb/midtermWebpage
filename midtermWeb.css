@@ -51,7 +51,7 @@ h2{
 }
 .text{
 	margin: 0 200px 200px 50vw;
-	padding-top: 300px;
+	padding-top: 280px;
 	font-size: 1em;
 	overflow-y: hidden;
 }
@@ -82,4 +82,25 @@ h2{
 }
 .header h4{
 	margin:0;
+}
+.link{
+	position: fixed;
+	bottom: 50px;
+	left: 100px;
+	text-decoration: none;
+	animation: changeColour 0.5s infinite;
+}
+@keyframes changeColour {
+  50% {color: yellow;}
+}
+
+.link h4{
+	margin: 0;
+}
+.link:hover{
+	color: white;
+	animation: none;
+}
+.link:visited{
+	color:grey;
 }
